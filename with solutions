@@ -1,0 +1,11 @@
+# Write a Python program to concatenate all elements in a list into a string and return it.
+
+# function for concatenate all elements in a list into a string
+
+
+def concatenate_function(my_list):
+    concatenate_value = my_list[0] + my_list[1] + my_list[2] + my_list[3] + my_list[4]
+    print(concatenate_value)
+
+
+concatenate_function(['1', '2', '3', '4', '5'])
